@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.App {
+  background-color: azure;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  padding: 70px;
+  font-size: 40px;
+}
+
+.underline {
+  width: 15%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  border-bottom: 4px solid rgb(15, 100, 248);
+}
+
+.tour-price {
+  background-color: aquamarine;
+  padding: 1px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+
+}
+
+.single-tour {
+  margin: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+.footer-tour {
+  padding: 10px;
+}
+
+.tour-p {
+  padding-bottom: 55px;
+  margin: 10px;
+}
+
+.delete-btn {
+  padding: 3px 10px;
+  border: 1px solid red;
+  margin: 0px 0 20px 0;
+  border-radius: 5px;
+  color: red;
+}
+
+.body-tour {
+  margin: 0 150px;
+}
+
+.read-btn {
+  display: none;
+}
+
+@media (max-width:768px) {
+  .body-tour {
+    margin: 0 100px;
+  }
+
+  .read-btn {
+    display: block;
+    color: aquamarine;
+  }
+}
+
+@media (max-width:550px) {
+  .body-tour {
+    margin: 0 0px;
+  }
+
+  .title {
+    text-align: center;
+    padding: 70px;
+    font-size: 30px;
+  }
+
+  .underline {
+    width: 40%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    border-bottom: 4px solid rgb(15, 100, 248);
+  }
+}

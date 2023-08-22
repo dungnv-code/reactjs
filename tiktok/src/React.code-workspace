@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "../../../React"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../birthday"
+		},
+		{
+			"path": "../../tour"
+		},
+		{
+			"path": "../../reviews"
+		},
+		{
+			"path": "../../setup"
+		},
+		{
+			"path": "../../menu"
+		},
+		{
+			"path": "../../todo"
+		},
+		{
+			"path": "../../sidebar"
+		},
+		{
+			"path": "../../cart_shopping"
+		},
+		{
+			"path": "../../shopping_cart"
+		}
+	],
+	"settings": {}
+}

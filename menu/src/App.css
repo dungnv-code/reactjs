@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 30px;
+}
+
+.underline {
+    position: relative;
+    border-bottom: 2px solid rgb(240, 84, 6);
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.menu-info {
+    margin: 20px;
+}
+
+.Category-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
